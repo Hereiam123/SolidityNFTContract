@@ -4,6 +4,8 @@
 
 require('dotenv').config();
 require("@nomiclabs/hardhat-ethers");
+require("./scripts/deploy.js");
+require("./scripts/mint.js");
 
 const { ALCHEMY_KEY, ACCOUNT_PRIVATE_KEY } = process.env;
 
