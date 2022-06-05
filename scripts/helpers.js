@@ -1,7 +1,6 @@
 const { ethers } = require("ethers");
 const { getContractAt } = require("@nomiclabs/hardhat-ethers/internal/helpers");
 
-
 // Helper method for fetching environment variables from .env
 function getEnvVariable(key, defaultValue) {
     if (process.env[key]) {
